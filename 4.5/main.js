@@ -38,3 +38,55 @@ for(let i = 1; i <= x; i++){
 }
 
 console.log(answer);
+
+
+// darajani topish
+// let number = prompt('son kiriting');
+// let level = prompt('daraja kiriting');
+// let answer = number;
+
+// for(let i = 1; i < level; i++){
+//     answer = answer * number;
+// }
+// alert(answer);
+
+
+// let number = prompt('son kiriting');
+// let answer = 0;
+
+// for(let i = 0; i < number; i++){
+//     answer = answer + i;
+// }
+// alert(answer); 
+
+
+// 🐏
+// 🐏🐏
+// 🐏🐏🐏
+// 🐏🐏🐏🐏
+// 🐏🐏🐏🐏🐏
+
+// let num = prompt("son kierting");
+// let shep = "🐏 ";
+
+// for(let i = 0; i <= num; i++ ){
+//     console.log(shep);
+//     shep = shep + "🐏";
+// }
+
+
+// * 
+// -*
+// --*
+// ---*
+// ----*
+
+
+let son = +prompt("Son kirting");
+let belgi = prompt("Belgi kirting");
+let tugallovchi = prompt("Tugallovchi kirting");
+
+for(let i = 0; i <= son; i++){
+    console.log(tugallovchi);
+    tugallovchi = belgi +tugallovchi;
+}
